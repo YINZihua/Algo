@@ -1,8 +1,10 @@
 #ifndef CONSTANT
 #define CONSTANT
 
-#include <stdlib>
-#include <stdio>
+#include <string>
+#include <vector>
+#include <cstdlib>
+#include <cstdio>
 #include <iostream>
 
 

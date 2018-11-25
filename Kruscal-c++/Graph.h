@@ -1,6 +1,8 @@
 #ifndef GRAPH
 #define GRAPH
 
+#include "ModuleManage.h"
+
 /***********************************************
     organization of graph matrix :
 
@@ -29,13 +31,6 @@
 
 ***********************************************/
 
-#include <vector>
-#include "ModuleManage.h"
-
-typedef struct{
-    int inner;
-    int outer;
-}Arc;
 
 class Graph{
     public : 
@@ -47,7 +42,6 @@ class Graph{
 
     private : 
         int graph[ORDER_GRAPH][ORDER_GRAPH];
-
         std::vector<Arc> arc;
 };
 
