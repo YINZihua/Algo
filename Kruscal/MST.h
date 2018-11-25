@@ -1,7 +1,7 @@
 #ifndef MST_CLASS
 #define MST_CLASS
 
-#include "Constant.h"
+#include "ModuleManage.h"
 
 class MST
 {
@@ -13,4 +13,4 @@ class MST
         int getFather(int vertex);
 };
 
-#endif //MST
+#endif //MSTi

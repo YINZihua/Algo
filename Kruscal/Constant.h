@@ -1,8 +1,9 @@
 #ifndef CONSTANT
 #define CONSTANT
 
-#include <stdlib.h>
-#include <stdio.h>
+#include <stdlib>
+#include <stdio>
+#include <iostream>
 
 
 #define ORDER_GRAPH 15
